@@ -1,0 +1,11 @@
+buka cmd dari folder ini
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+venv\Scripts\Activate
+
+python app.py --mixed_precision="bf16"  (buat run dalam mode high performance)
+
+python Streamlit.py --mixed_precision="bf16"
+
+streamlit run Streamlit.py
